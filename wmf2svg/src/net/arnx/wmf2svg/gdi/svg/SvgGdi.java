@@ -1520,15 +1520,17 @@ public class SvgGdi implements Gdi {
 							if (state == 0) {
 								elem.appendChild(text);
 							} else if (state == 1) {
-								Element span = doc.createElement("tspan");
-								span.setAttribute("font-family", "serif");
-								span.appendChild(text);
-								elem.appendChild(span);
+//								Element span = doc.createElement("tspan");
+//								span.setAttribute("font-family", "serif");
+//								span.appendChild(text);
+//								elem.appendChild(span);
+								elem.appendChild(text);
 							} else if (state == 2) {
-								Element span = doc.createElement("tspan");
-								span.setAttribute("font-family", "sans-serif");
-								span.appendChild(text);
-								elem.appendChild(span);
+//								Element span = doc.createElement("tspan");
+//								span.setAttribute("font-family", "sans-serif");
+//								span.appendChild(text);
+//								elem.appendChild(span);
+								elem.appendChild(text);
 							}
 							start = i;
 						}
@@ -1541,15 +1543,17 @@ public class SvgGdi implements Gdi {
 					if (state == 0) {
 						elem.appendChild(text);
 					} else if (state == 1) {
-						Element span = doc.createElement("tspan");
-						span.setAttribute("font-family", "serif");
-						span.appendChild(text);
-						elem.appendChild(span);
+//						Element span = doc.createElement("tspan");
+//						span.setAttribute("font-family", "serif");
+//						span.appendChild(text);
+//						elem.appendChild(span);
+						elem.appendChild(text);
 					} else if (state == 2) {
-						Element span = doc.createElement("tspan");
-						span.setAttribute("font-family", "sans-serif");
-						span.appendChild(text);
-						elem.appendChild(span);
+//						Element span = doc.createElement("tspan");
+//						span.setAttribute("font-family", "sans-serif");
+//						span.appendChild(text);
+//						elem.appendChild(span);
+						elem.appendChild(text);
 					}
 				}
 				return;
